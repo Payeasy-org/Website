@@ -13,7 +13,7 @@ const Benefits = () => {
       </p>
 
       <div className="mt-10 grid grid-cols-3 items-center gap-5">
-        <div className="flex h-[550px] flex-col justify-between overflow-hidden rounded-[20px] bg-[#E6C8FF] px-6 pt-7">
+        <div className="flex h-[550px] flex-col justify-between overflow-hidden rounded-[20px] bg-[#E5C5FF] px-6 pt-7">
           <div>
             <h3 className="text-xl font-semibold text-white">
               Save Time, Every Time
@@ -67,7 +67,7 @@ const Benefits = () => {
             alt="Card"
             width={10}
             height={10}
-            className="h-full w-full translate-x-16 "
+            className="h-full w-full translate-x-16"
           />
         </div>
       </div>

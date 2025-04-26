@@ -21,3 +21,36 @@ body {
   /* background: var(--background); */
   color: var(--background);
 }
+@theme {
+  /* Compose animation shorthand values */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  /* Keyframe definitions */
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+/* Register utility classes for animations */
+@layer utilities {
+  .animate-accordion-down {
+    animation: var(--animate-accordion-down);
+  }
+  .animate-accordion-up {
+    animation: var(--animate-accordion-up);
+  }
+}

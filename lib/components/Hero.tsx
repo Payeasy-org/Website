@@ -11,11 +11,11 @@ const Hero = () => {
       </p>
 
       <div className="mt-5 flex items-center gap-4">
-        <button className="rounded-full bg-[linear-gradient(155deg,#7E55EC_0%,#AB49FF_50%)] px-6 py-3 font-semibold text-white">
+        <button className="transform rounded-full cursor-pointer bg-[linear-gradient(155deg,#7E55EC_0%,#AB49FF_50%)] px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_5px_rgba(171,73,255,0.4)] hover:brightness-110">
           Join the waitlist
         </button>
 
-        <button className="rounded-full bg-[linear-gradient(155deg,#7E55EC_0%,#AB49FF_50%)] p-0.5">
+        <button className="cursor-pointer rounded-full bg-[linear-gradient(155deg,#7E55EC_0%,#AB49FF_50%)] p-0.5 transition-all duration-300 hover:shadow-[0_0_15px_5px_rgba(171,73,255,0.4)]">
           <div className="rounded-full bg-white/90 px-6 py-3 font-semibold text-[#7B2CBF] backdrop-blur">
             View Demo
           </div>
