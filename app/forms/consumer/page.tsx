@@ -45,7 +45,7 @@ export default function ConsumerForm() {
                             <label className="block h-[14px] font-semibold text-[20px] leading-[100%] tracking-tightest">Phone Number</label>
                             <input
                                 type="number"
-                                placeholder="4"
+                                placeholder="0813344456"
                                 className="bg-[#ffffff] 
                                     w-full 
                                     h-[54px]
@@ -63,7 +63,7 @@ export default function ConsumerForm() {
                         <label className="block h-[14px] font-semibold text-[20px] leading-[100%] tracking-tightest">Tell Us Where You’d Love to Use Pay Easy</label>
                         <input
                             type="text"
-                            placeholder="e.g Quickbook"
+                            placeholder="e.g Bokku"
                             className="bg-[#ffffff] 
                                 w-[566px] 
                                 h-[54px] 
